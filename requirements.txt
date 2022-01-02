@@ -1,0 +1,7 @@
+Flask
+line-bot-sdk
+neologdn
+emoji
+mecab-python3
+unidic-lite
+markovify
