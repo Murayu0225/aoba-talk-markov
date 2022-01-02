@@ -20,7 +20,7 @@ Build by `heroku`.<br/>
 ↓<br/>
 Reflect LINE Bot.
 
-The webhook destination is [https://aoba.assistant-app.com/sample](https://aoba.assistant-app.com/sample).
+The webhook destination is [https://aoba-s.murayu.com/sample](https://aoba-s.murayu.com/sample).
 
 ### How to test
 - The LINE account is not open to the public. If you want to build it, please link heroku with the cloned repository to make it work. You can refer to [this article](https://qiita.com/shimajiri/items/cf7ccf69d184fdb2fb26) for more details.
@@ -43,13 +43,13 @@ The webhook destination is [https://aoba.assistant-app.com/sample](https://aoba.
 ## Text Generator (from LINE TALK)
 **サンプルで坊っちゃんの冒頭がtalk.txtに入ってます。本番環境では、ここに相手のトークを入力して利用してください。**
 
-****との過去のLINEトークをMecabで文脈解析。Markovを使ってあおばちゃんが話しそうな新たな文章を生成します。
+****との過去のLINEトークをMecabで文脈解析。Markovを使って **** が話しそうな新たな文章を生成します。
 
 ### 仕組み
 
 [ ]内は、ブランチ
 
-`talk.txt`に****が打った文章を入力[add/***]<br/>
+`talk.txt`に **** が打った文章を入力[add/***]<br/>
 ↓<br/>
 [develop]ブランチにマージ<br/>
 ↓<br/>
@@ -63,7 +63,7 @@ herokuによるビルド<br/>
 ↓<br/>
 LINE Bot反映
 
-Webhook先については、[https://aoba.assistant-app.com/sample](https://aoba.assistant-app.com/sample)になってます。
+Webhook先については、[https://aoba-s.murayu.com/sample](https://aoba-s.murayu.com/sample)になってます。
 
 ### テスト方法
 - LINEアカウントの公開は行っておりません。ビルドする場合には、herokuとクローンしたリポジトリを連携させて動作させてください。herokuとLINE Botの連携方法は、[この記事](https://qiita.com/shimajiri/items/cf7ccf69d184fdb2fb26)を参照にすると良いです。
